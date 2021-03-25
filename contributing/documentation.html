@@ -148,6 +148,10 @@
 <li><code>tools/*</code> - during the build process some tools will be downloaded which are stored here</li>
 <li><code>_site</code> - this is the exported static site that is generated</li>
 </ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The project is going through a trial run of using mini-sites instead of a single API docs site. Currently, the active DocFx configuration files are the <code>docfx.&lt;project&gt;.json</code> files, however both the mini-site and <code>docfx.json</code> configuration files need to be updated, since there is a chance we will need to switch back.</p>
+</div>
 <h3 id="process-overview">Process overview</h3>
 <p>The documentation generation is a complex process because it needs to convert the Java Lucene project's documentation into a usable format to produce the output Lucene.NET's documentation.</p>
 <p>The process overview is:</p>
